@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@1,600&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background: #fadadd;
+  font-family: 'Crimson Text', serif;
+}
+.mainBlock{
+  width: 1280px;
+  margin: 1% auto;
+
+}
+header .logo{
+  font-size: 300%;
+  font-weight: bolder;
+  
+}
+.baner{
+    margin: 2% 1%;
+    width: 100%;
+    height: 200px;
+  background-size: cover;
+  background: url('./imgs/baner.jpg') no-repeat;
+  background-position: center center;
+}
+
+header ul.nav{
+  list-style-type: none;
+  margin-right: 10%;
+
+  
+}
+header ul.nav li{
+    float: right;
+    text-align: center;
+    padding-left: 5%;
+    padding-bottom: 0%;
+    text-decoration: none;
+    font-size: 170%;
+}
+header ul.nav li:hover{
+  opacity: 0.5;
+}
+footer{
+  text-align: center;
+}
+.time{
+  font-size: 120%;
+  margin-left: 1030px;
+}
+
+.child{
+  display: inline-block;
+  margin-left: 10px;
+}
+
+main .item{
+  width: 20%;
+  margin-bottom: 50px;
+  background-color: #ffffff41;
+  margin: 2%;
+  border-radius: 10px 10px 0 0 ;
+  overflow: hidden;
+}
+main .item a{
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: hwb(0 14% 86%);
+  background-color: #ffffff73;
+  border: none;
+  border-radius: 4px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-left: 30%;
+  margin-bottom: 6%;
+}
+main .item a:hover{
+  background-color:  #7b6666d1;
+}
+main .item img{
+  width: 100%;
+
+}
+main .item img:hover{
+  transform: scale(1.05);
+}
+main h2, main p{
+  margin: 10px 20px;
+  color: #333;
+}
+main{
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.categories {
+  display: inline-block;
+  background-color: #ded6d7bd;
+  border-radius: 30px;
+  padding: 10px 20px;
+  margin-bottom: 25px;
+  margin-right: 15px;
+  cursor: pointer;
+  font-size: 120%;
+}
+.logButton{
+  background-color: #fadadd;;
+  color: black;
+  border: 2px solid #8358d9;
+  padding: 5px;
+}
+.add-to-cart{
+  text-align: center;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+
+/* PROD DETAILS**********/
+.product-details {
+  margin: auto;
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  padding: 40px;
+
+  background-color: #f5f5f5;
+}
+
+.product-details h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.product-details p {
+  margin-left: 1%;
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+
+.product-details img {
+  margin: auto;
+  max-width: 50%;
+  margin-bottom: 20px;
+}
+
+.product-details form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.product-details label {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.product-details input,
+.product-details textarea {
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 1.2rem;
+}
+
+.product-details button {
+  margin-bottom: 5%;
+  padding: 6px;
+  background-color: #9e8d8d3d;
+  color: #000000;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.product-details ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.product-details ul li {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.product-details ul li strong {
+  font-weight: bold;
+  margin-right: 5px;
+}
+.horizontal-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.horizontal-list li {
+  display: inline-block;
+  margin-right: 10px;
+}
+.full-width-div {
+  display: block;
+  width: 100%;
+}
