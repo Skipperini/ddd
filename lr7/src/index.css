@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@1,600&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background: #fadadd;
+  font-family: 'Crimson Text', serif;
+}
+.mainBlock{
+  width: 1280px;
+  margin: 1% auto;
+
+}
+header .logo{
+  font-size: 300%;
+  font-weight: bolder;
+  
+}
+.baner{
+    margin: 2% 1%;
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background: url('./imgs/baner.jpg') no-repeat;
+    background-position: center center;
+}
+
+header ul.nav{
+  list-style-type: none;
+  margin-right: 10%;
+}
+header ul.nav li{
+    float: right;
+    text-align: center;
+    padding-left: 5%;
+    padding-bottom: 0%;
+    text-decoration: none;
+    font-size: 170%;
+}
+header ul.nav li:hover{
+  opacity: 0.5;
+}
+footer{
+  text-align: center;
+}
+
+.logButton{
+  background-color: #fadadd;;
+  color: black;
+  border: 2px solid #8358d9;
+  padding: 5px;
+}
+
+
+/**********/
+
+
+.fade-enter {
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+.fade-enter-active {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 650ms, transform 550ms;
+}
+
+.fade-exit {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.fade-exit-active {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 330ms, transform 330ms;
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
